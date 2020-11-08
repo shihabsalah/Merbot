@@ -15,6 +15,7 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+    - HI there
 - intent: goodbye
   examples: |
     - good afternoon
@@ -61,6 +62,7 @@ nlu:
     - so so perfect
     - so good
     - so perfect
+    - Not bad
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -89,6 +91,7 @@ nlu:
     - Can you tell me location of Flat6labs?
     - Flat6labs location
     - location Flat6labs
+    - do you know flat6labs location ?
 - intent: f6l_sectors
   examples: |
     - What type of startups do you fund? Do you have any sector focus?
@@ -151,11 +154,13 @@ nlu:
     - how much do you offer?
     - How much do we get?
     - seed fund
+    - how much money do I get ?
 - intent: f6l_startups#
   examples: |
     - How many startups do you invest in each year?
     - how many accepted startups
     - what is number of startups accepted every year?
+    - how many startups do you work with?
 - intent: f6l_plan
   examples: |
     - Is a business plan required when applying to Flat6Labs?
