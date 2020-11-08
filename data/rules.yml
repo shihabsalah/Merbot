@@ -1,0 +1,67 @@
+version: "2.0"
+stories:
+- story: flat6labs sectors
+  steps:
+  - intent: f6l_sectors
+  - action: utter_f6l_sectors
+- story: flat6labs location
+  steps:
+  - intent: f6l_location
+  - action: utter_f6l_location
+- story: flat6labs office
+  steps:
+  - intent: f6l_office
+  - action: utter_f6l_office
+- story: flat6labs sameidea
+  steps:
+  - intent: f6l_sameidea
+  - action: utter_f6l_sameidea
+- story: flat6labs stake
+  steps:
+  - intent: f6l_stake
+  - action: utter_f6l_stake
+- story: flat6labs graduation
+  steps:
+  - intent: f6l_graduation
+  - action: utter_f6l_graduation
+- story: flat6labs changescope
+  steps:
+  - intent: f6l_changescope
+  - action: utter_f6l_changescope
+- story: flat6labs contactme
+  steps:
+  - intent: f6l_contactme
+  - action: utter_f6l_contactme
+- story: flat6labs twoideas
+  steps:
+  - intent: f6l_twoideas
+  - action: utter_f6l_twoideas
+- story: flat6labs morefund
+  steps:
+  - intent: f6l_morefund
+  - action: utter_f6l_morefund
+- story: flat6labs selection
+  steps:
+  - intent: f6l_selection
+  - action: utter_f6l_selection
+- story: flat6labs fund
+  steps:
+  - intent: f6l_fund
+  - action: utter_f6l_fund
+- story: flat6labs startups#
+  steps:
+  - intent: f6l_startups#
+  - action: utter_f6l_startups#
+- story: flat6labs plan
+  steps:
+  - intent: f6l_plan
+  - action: utter_f6l_plan
+rules:
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot

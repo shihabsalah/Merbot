@@ -1,0 +1,163 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: f6l_location
+  examples: |
+    - Where are the Flat6Labs offices located?
+    - Can you tell me location of Flat6labs?
+    - Flat6labs location
+    - location Flat6labs
+- intent: f6l_sectors
+  examples: |
+    - What type of startups do you fund? Do you have any sector focus?
+    - What type of startups do you fund?
+    - Do Flat6labs have any sector focus?
+- intent: f6l_sameidea
+  examples: |
+    - What if more than one startup is working on the same idea during the same cycle?
+    - What if 2 startups working on same idea?
+    - can 2 startups work on same idea?
+- intent: f6l_graduation
+  examples: |
+    - What does “graduation time” mean?
+    - Flat6labs graduation time
+    - How long is the program?
+- intent: f6l_office
+  examples: |
+    - Should all the team members be working from Flat6Labs?
+    - Do Flat6labs provide office space?
+    - Where our team will work?
+    - Do we have to work at Flat6labs?
+- intent: f6l_twoideas
+  examples: |
+    - Our team has two ideas. Can we submit two applications?
+    - Can we submit 2 startups?
+    - Can we submit 2 applications?
+- intent: f6l_changescope
+  examples: |
+    - May we change the scope of my project during the cycle?
+    - Can I change scope during cycle?
+    - Changed our idea
+    - What if we got better idea during the cycle?
+- intent: f6l_morefund
+  examples: |
+    - I need more money than what you are offering for seed funding.
+    - bigger fund
+    - What if we need more money?
+- intent: f6l_contactme
+  examples: |
+    - I have filled in the application and no one has contacted me; what should I do?
+    - no one contacted me
+    - when will someone contact me?
+- intent: f6l_stake
+  examples: |
+    - How will you receive a return on your investment?
+    - how much do you take?
+    - how do you make money?
+    - equity
+    - how much equity do you take?
+- intent: f6l_selection
+  examples: |
+    - How do you select your startups?
+    - What is your selection criteria ?
+    - selection criteria
+    - criteria
+- intent: f6l_fund
+  examples: |
+    - How much funding do you offer?
+    - fund
+    - how much do you offer?
+    - How much do we get?
+    - seed fund
+- intent: f6l_startups#
+  examples: |
+    - How many startups do you invest in each year?
+    - how many accepted startups
+    - what is number of startups accepted every year?
+- intent: f6l_plan
+  examples: |
+    - Is a business plan required when applying to Flat6Labs?
+    - must I have a plan?
+    - Do we need a business plan?
