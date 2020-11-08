@@ -118,6 +118,10 @@ nlu:
     - Our team has two ideas. Can we submit two applications?
     - Can we submit 2 startups?
     - Can we submit 2 applications?
+    - two ideas
+    - what if we want to have two ideas
+    - 2 startups
+    - two startups
 - intent: f6l_changescope
   examples: |
     - May we change the scope of my project during the cycle?
