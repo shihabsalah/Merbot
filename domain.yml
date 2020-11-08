@@ -1,0 +1,92 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- f6l_sectors
+- f6l_location
+- f6l_office
+- f6l_sameidea
+- f6l_stake
+- f6l_graduation
+- f6l_changescope
+- f6l_contactme
+- f6l_twoideas
+- f6l_morefund
+- f6l_selection
+- f6l_fund
+- f6l_startups#
+- f6l_plan
+responses:
+  utter_greet:
+  - text: Hey! How are you?
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_f6l_location:
+  - text: We currently have five offices in Cairo, Jeddah, Abu Dhabi, Beirut, and
+      Tunis. However, we have expansion plans in the very near future.
+  utter_f6l_sectors:
+  - text: 'Flat6Labs is sector agnostic and does not invest in one industry. However
+      preference is given to startups in the following sectors: ICT, Healthcare, Education,
+      Digital Content and Media, Consumer Internet (Marketplaces, e-Commerce), and
+      FinTech.'
+  utter_f6l_office:
+  - text: We ask all core team members to work from our Flat6Labs office, so we can
+      closely work with them and support them with the advice and mentorship they
+      need to accelerate and grow. However many startups have part time employees
+      who don’t need to be in the accelerator.
+  utter_f6l_sameidea:
+  - text: We do our best to select diversified ideas during each cycle, but if this
+      scenario happens or if any team changes the scope during the cycle, we will
+      always look for ways of cooperation between the concerned teams rather than
+      pitting them against each other. This should be easy, especially since there
+      is no way any two ideas can be that identical in the world of technology.
+  utter_f6l_stake:
+  - text: Upon joining Flat6Labs, we acquire a 10% stake of equity in the company.
+  utter_f6l_graduation:
+  - text: It denotes the time when the 4-month cycle ends and teams have to acquire
+      a premises other than Flat6Labs. However, by no means whatsoever does this mean
+      that our services are discontinued to our startups.
+  utter_f6l_changescope:
+  - text: You can change scope as long as the new scope is agreed upon by all stakeholders.
+  utter_f6l_contactme:
+  - text: It usually takes few weeks to process every application and contact you
+      for an interview. If you think it has been taking too long, or something may
+      have gone wrong, please send us an email to apply@flat6labs.com (based on location
+      you are applying to) to ensure that everything is in order.
+  utter_f6l_twoideas:
+  - text: You can apply twice, with one idea per application.
+  utter_f6l_morefund:
+  - text: Our offering range is the same for all teams, and we believe that very few
+      early stage startups need more money to go through a 4 month accelerator. Follow-on
+      funding can be targeted from VCs and Angel investors following demo day which
+      we will support you in sourcing.
+  utter_f6l_selection:
+  - text: We assess startups based on the fact that they have a strong team, an interesting
+      opportunity with a clear need and a large market, and an innovation that they
+      are introducing - in other words not simply copying another startup.
+  utter_f6l_fund:
+  - text: Accepted startups receive  EGP 500-750k in cash seed funding and up to EGP2m
+      in follow-on funding.
+  utter_f6l_startups#:
+  - text: We invest in 10 startups per cycle and we have 2 cycles each year, so we
+      generally invest in around 20 startups each year.
+  utter_f6l_plan:
+  - text: No, we don’t ask for a business plan for applying to Flat6Labs, but we encourage
+      all our teams to have an idea of how they plan to make money, and how they plan
+      to grow when they apply when they come to interview.
