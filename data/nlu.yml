@@ -16,6 +16,8 @@ nlu:
     - goodevening
     - good afternoon
     - HI there
+    - Hi there
+    - Hi
 - intent: goodbye
   examples: |
     - good afternoon
@@ -92,6 +94,8 @@ nlu:
     - Flat6labs location
     - location Flat6labs
     - do you know flat6labs location ?
+    - Can you help me with Flat6labs location
+    - location
 - intent: f6l_sectors
   examples: |
     - What type of startups do you fund? Do you have any sector focus?
@@ -128,6 +132,10 @@ nlu:
     - Can I change scope during cycle?
     - Changed our idea
     - What if we got better idea during the cycle?
+    - change scope
+    - Can I change the scope of my Idea within the cycle ?
+    - change idea
+    - what if I need to change idea
 - intent: f6l_morefund
   examples: |
     - I need more money than what you are offering for seed funding.
@@ -145,6 +153,8 @@ nlu:
     - how do you make money?
     - equity
     - how much equity do you take?
+    - how much do you take
+    - stack
 - intent: f6l_selection
   examples: |
     - How do you select your startups?
@@ -159,6 +169,7 @@ nlu:
     - How much do we get?
     - seed fund
     - how much money do I get ?
+    - How much fund do I get?
 - intent: f6l_startups#
   examples: |
     - How many startups do you invest in each year?
