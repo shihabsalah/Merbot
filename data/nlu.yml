@@ -96,6 +96,7 @@ nlu:
     - do you know flat6labs location ?
     - Can you help me with Flat6labs location
     - location
+    - Address
 - intent: f6l_sectors
   examples: |
     - What type of startups do you fund? Do you have any sector focus?
@@ -111,6 +112,8 @@ nlu:
     - What does “graduation time” mean?
     - Flat6labs graduation time
     - How long is the program?
+    - Timeline
+    - Period
 - intent: f6l_office
   examples: |
     - Should all the team members be working from Flat6Labs?
@@ -170,6 +173,7 @@ nlu:
     - seed fund
     - how much money do I get ?
     - How much fund do I get?
+    - Fund
 - intent: f6l_startups#
   examples: |
     - How many startups do you invest in each year?
