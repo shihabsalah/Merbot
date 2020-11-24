@@ -35,8 +35,10 @@ responses:
   - text: Great, carry on!
   utter_goodbye:
   - text: Bye
-  utter_iamabot:
-  - text: I am a bot, powered by Rasa.
+  utter_notsure:
+  - text: Hmm.. not sure if I got an accurate response for this question, but I will
+      definitely ask someone and update the answer to my database so next time we
+      talk I can answer that for you!
   utter_f6l_location:
   - text: We currently have five offices in Cairo, Jeddah, Abu Dhabi, Beirut, and
       Tunis. However, we have expansion plans in the very near future.

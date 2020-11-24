@@ -48,6 +48,7 @@ nlu:
     - don't like that
     - no way
     - not really
+    - Nope
 - intent: mood_great
   examples: |
     - perfect
@@ -81,6 +82,7 @@ nlu:
     - extremly sad
     - so saad
     - so sad
+    - Where is my answer
 - intent: bot_challenge
   examples: |
     - are you a bot?
@@ -96,6 +98,7 @@ nlu:
     - do you know flat6labs location ?
     - Can you help me with Flat6labs location
     - location
+    - Address
 - intent: f6l_sectors
   examples: |
     - What type of startups do you fund? Do you have any sector focus?
@@ -111,6 +114,8 @@ nlu:
     - What does “graduation time” mean?
     - Flat6labs graduation time
     - How long is the program?
+    - Period
+    - Timeline
 - intent: f6l_office
   examples: |
     - Should all the team members be working from Flat6Labs?
@@ -126,6 +131,7 @@ nlu:
     - what if we want to have two ideas
     - 2 startups
     - two startups
+    - 2 ideas
 - intent: f6l_changescope
   examples: |
     - May we change the scope of my project during the cycle?
@@ -136,6 +142,7 @@ nlu:
     - Can I change the scope of my Idea within the cycle ?
     - change idea
     - what if I need to change idea
+    - changing idea
 - intent: f6l_morefund
   examples: |
     - I need more money than what you are offering for seed funding.
@@ -155,6 +162,7 @@ nlu:
     - how much equity do you take?
     - how much do you take
     - stack
+    - how much money do I get ?
 - intent: f6l_selection
   examples: |
     - How do you select your startups?
@@ -168,8 +176,8 @@ nlu:
     - how much do you offer?
     - How much do we get?
     - seed fund
-    - how much money do I get ?
     - How much fund do I get?
+    - Fund
 - intent: f6l_startups#
   examples: |
     - How many startups do you invest in each year?
@@ -181,3 +189,6 @@ nlu:
     - Is a business plan required when applying to Flat6Labs?
     - must I have a plan?
     - Do we need a business plan?
+- intent: notsure
+  examples: |
+    - ...
