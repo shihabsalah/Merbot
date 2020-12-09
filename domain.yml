@@ -23,6 +23,7 @@ intents:
 - f6l_fund
 - f6l_startups#
 - f6l_plan
+- notsure
 responses:
   utter_greet:
   - text: Hey! How are you?
@@ -92,3 +93,7 @@ responses:
   - text: No, we don’t ask for a business plan for applying to Flat6Labs, but we encourage
       all our teams to have an idea of how they plan to make money, and how they plan
       to grow when they apply when they come to interview.
+  utter_please_rephrase:
+  - text: Hmm.. not sure if I got an accurate response for this question, but I will
+      definitely ask someone and update the answer to my database so next time we
+      talk I can answer that for you!

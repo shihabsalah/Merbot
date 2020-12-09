@@ -162,7 +162,8 @@ nlu:
     - how much equity do you take?
     - how much do you take
     - stack
-    - how much money do I get ?
+    - you get
+    - How much do you get
 - intent: f6l_selection
   examples: |
     - How do you select your startups?
@@ -176,8 +177,11 @@ nlu:
     - how much do you offer?
     - How much do we get?
     - seed fund
+    - how much money do I get ?
     - How much fund do I get?
     - Fund
+    - money I get
+    - I get
 - intent: f6l_startups#
   examples: |
     - How many startups do you invest in each year?
